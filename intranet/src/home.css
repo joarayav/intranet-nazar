@@ -1,0 +1,292 @@
+.Inicio {
+    text-align: center;
+    border: 5px solid #0b7dda;
+    width: auto;
+  }
+  
+  .App-logo {
+    pointer-events: none;
+    opacity: 0.1;
+    width: 100%;
+    height: auto;
+    width:100%;
+  }
+  
+  .App-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+    justify-content: flex-start;  
+    padding-right: 0px;
+    padding-left: 0px;
+  
+  }
+  
+  .App-header.isActive {
+    display: flex;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .app-Destino {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .app-Conductor {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .app-Moneda {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .app-Fecha {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .app-Gasto-Inicial {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .app-Gasto-Real {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .tabla {
+    display: none;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tabla.isActive {
+    display: flex;
+  }
+  
+  .tabla-revision {
+    display: none;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tabla-revision.isActive {
+    display: flex;
+  }
+  
+  .app-Gastos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .app-datos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .app-buscador-viaje {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .search {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .clean {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .app-buscador {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .text-combustible {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .text-peaje {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .text-estacionamiento {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .text-lavado {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .text-viatico {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .text-alimentacion {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .presupuesto-combustible {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .presupuesto-peaje {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .presupuesto-estacionamiento {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .presupuesto-lavado {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .presupuesto-viatico {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .presupuesto-alimentacion {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .text-buscador {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .text-destino {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .text-conductor {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .text-moneda {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .text-Fecha-viaje {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .app-Destino {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .app-Conductor {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .app-Moneda {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .app-Fecha {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .button-search {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .button-clean {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .app-datos.isActive{
+    display: flex;
+  }
+  
+  .App-visualizar {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+    justify-content: flex-start;
+    
+  }
+  
+  .App-visualizar.isActive {
+    display: flex;
+  }
+  
+  .save {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .button-save {
+    flex-direction: column;
+    margin-top: 10px;
+  }

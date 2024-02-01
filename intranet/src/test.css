@@ -1,0 +1,11 @@
+.cabecera-button-crear {
+    background-color: white; 
+    border: 2px solid #007bff;
+    border: 0 none;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  
+  .cabecera-button-crear:hover {
+    background: #0b7dda; color: white;
+  }

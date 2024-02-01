@@ -1,0 +1,35 @@
+.footer {
+  text-align: center;
+}
+
+.cabecera-logo {
+  height: 7vmin;
+  pointer-events: none;
+  float: left;
+  margin: 10px;
+  
+}
+
+.cabecera-home {
+  height: 3vmin;
+  pointer-events: none;
+  float: right;
+  margin: 25px;
+}
+
+
+.pie {
+  background-color: #3b3a3a;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(05px + 2vmin);
+  color: rgb(71, 69, 69);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
